@@ -9,6 +9,6 @@ sudo printf "\n frontend holberton
 backend web_servers
     mode http
     balance roundrobin
-    server 4639-web-01  3.80.82.238
-    server 4639-web-02  54.91.192.218 | sudo tee /etc/haproxy/haproxy.cfg
+    server 4636-web-01  3.80.82.238
+    server 4636-web-02  54.91.192.218 | sudo tee /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
